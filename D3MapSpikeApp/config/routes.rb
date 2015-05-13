@@ -1,13 +1,13 @@
 Rails.application.routes.draw do
-  get 'welcome/index'
+   root 'welcome#index'
 
-  get 'riots/index'
+  # devise_for :users
 
-  get 'riots/edit'
+    resources :riots
 
-  get 'riots/new'
-
-  get 'riots/show'
+    namespace :api do
+      resources :riots
+    end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

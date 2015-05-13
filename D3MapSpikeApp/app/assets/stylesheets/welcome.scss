@@ -1,3 +1,37 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-size: 16px;
+}
+
+.land {
+ 	
+ 	fill: rgb(95, 135, 160);
+  	stroke: black;
+
+}
+
+.state {
+  	fill: none;
+  	stroke: black;
+}
+
+
+/*@-webkit-keyframes paintbackground {
+  0%{
+    fill: red;
+  }
+  50%{
+    fill: blue;
+  }
+  100%{
+    fill: red;
+  }
+}*/
+
+.map-container {
+  height: 30rem;
+  margin: 0 auto;
+}
